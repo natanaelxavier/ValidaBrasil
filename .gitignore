@@ -1,0 +1,25 @@
+# Pastas e arquivos gerados pelo Visual Studio
+.vs/
+bin/
+obj/
+TestResults/
+
+# Configurações locais do usuário
+*.user
+*.suo
+
+# Logs e arquivos de build
+*.log
+*.lock
+*.cache
+*.dll
+*.pdb
+*.exe
+
+# Arquivos de pacotes
+packages/
+*.nupkg
+
+# Outros
+.idea/
+*.tmp
