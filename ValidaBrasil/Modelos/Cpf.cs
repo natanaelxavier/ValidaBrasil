@@ -10,7 +10,7 @@ namespace ValidaBrasil.Modelos
     /// independentemente de idade ou nacionalidade, inclusive falecidas.
     /// Autor: Wikipedia
     /// </summary>
-    public class Cpf : IOperacao
+    internal class Cpf : IOperacao
     {
         public string Formatar(string cpf)
         {
