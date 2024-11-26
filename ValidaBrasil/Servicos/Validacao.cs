@@ -21,6 +21,9 @@ namespace ValidaBrasil.Servicos
                 case TipoDocumento.CNPJ:
                     operacao = new Cnpj();
                     break;
+                case TipoDocumento.RENAVAM:
+                    operacao = new Renavam();
+                    break;
                 default:
                     throw new ArgumentException($"Tipo {tipo} não suportado.");
             }
