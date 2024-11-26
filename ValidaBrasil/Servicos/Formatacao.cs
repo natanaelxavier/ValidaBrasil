@@ -16,6 +16,9 @@ namespace ValidaBrasil.Servicos
                 case TipoDocumento.CPF:
                     operacao = new Cpf();
                     break;
+                case TipoDocumento.CNPJ:
+                    operacao = new Cnpj();
+                    break;
                 default:
                     throw new ArgumentException($"Tipo {tipo} não suportado.");
             }
@@ -31,6 +34,9 @@ namespace ValidaBrasil.Servicos
             {
                 case TipoDocumento.CPF:
                     operacao = new Cpf();
+                    break;
+                case TipoDocumento.CNPJ:
+                    operacao = new Cnpj();
                     break;
                 default:
                     throw new ArgumentException($"Tipo {tipo} não suportado.");

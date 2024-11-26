@@ -6,6 +6,7 @@ namespace ValidaBrasil.Enums
 {
     public enum TipoDocumento
     {
-        CPF
+        CPF,
+        CNPJ
     }
 }
