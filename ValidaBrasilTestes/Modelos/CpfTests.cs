@@ -40,7 +40,7 @@ namespace ValidaBrasil.Tests.Modelos
             //Base
             var servico = new Cpf();
             string valor = "123.456.789-01";
-            string resultado = servico.RemoverFormatação(valor);
+            string resultado = servico.RemoverFormatacao(valor);
             Assert.Equal("12345678901", resultado);
         }
     }

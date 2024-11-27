@@ -43,7 +43,7 @@ namespace ValidaBrasil.Tests.Modelos
             //Base
             var servico = new Cnpj();
             string valor = "12.345.678/0123-45";
-            string resultado = servico.RemoverFormatação(valor);
+            string resultado = servico.RemoverFormatacao(valor);
             Assert.Equal("12345678012345", resultado);
         }
     }

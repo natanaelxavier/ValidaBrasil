@@ -25,7 +25,7 @@ namespace ValidaBrasil.Interfaces
         /// </summary>
         /// <param name="valor">O valor do qual a formatação será removida.</param>
         /// <returns>Retorna o valor sem formatação.</returns>
-        string RemoverFormatação(string valor);
+        string RemoverFormatacao(string valor);
     }
 
 }

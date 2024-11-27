@@ -17,18 +17,18 @@ namespace ValidaBrasil.Modelos
     {
         public string Formatar(string renavam)
         {
-            renavam = RemoverFormatação(renavam);
+            renavam = RemoverFormatacao(renavam);
             return Regex.Replace(renavam, @"(\d{10})(\d)", "$1-$2");
         }
 
-        public string RemoverFormatação(string renavam)
+        public string RemoverFormatacao(string renavam)
         {
             return Regex.Replace(renavam, @"[^\d]", "");
         }
 
         public bool Validar(string renavam)
         {
-            renavam = RemoverFormatação(renavam);
+            renavam = RemoverFormatacao(renavam);
             renavam = renavam.PadRight(11, '0');
 
             if (string.IsNullOrEmpty(renavam) || renavam.Length != 11 || !Regex.IsMatch(renavam, "^[0-9]{11}$"))

@@ -8,6 +8,7 @@ namespace ValidaBrasil.Enums
     {
         CPF,
         CNPJ,
-        RENAVAM
+        RENAVAM,
+        TITULOELEITORAL
     }
 }

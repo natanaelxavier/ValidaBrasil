@@ -14,18 +14,18 @@ namespace ValidaBrasil.Modelos
     {
         public string Formatar(string cpf)
         {
-            cpf = RemoverFormatação(cpf);
+            cpf = RemoverFormatacao(cpf);
             return Regex.Replace(cpf, @"(\d{3})(\d{3})(\d{3})(\d{2})", "$1.$2.$3-$4");
         }
         
-        public string RemoverFormatação(string cpf)
+        public string RemoverFormatacao(string cpf)
         {
             return Regex.Replace(cpf, @"[^\d]", "");
         }
 
         public bool Validar(string cpf)
         {
-            cpf = RemoverFormatação(cpf);
+            cpf = RemoverFormatacao(cpf);
 
             if (!Regex.IsMatch(cpf, @"^\d{11}$") || new string(cpf[0], 11) == cpf)
                 return false;

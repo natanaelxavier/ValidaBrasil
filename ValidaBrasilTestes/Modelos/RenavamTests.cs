@@ -43,7 +43,7 @@ namespace ValidaBrasil.Tests.Modelos
             //Base
             var servico = new Renavam();
             string valor = "1666906128-6";
-            string resultado = servico.RemoverFormatação(valor);
+            string resultado = servico.RemoverFormatacao(valor);
             Assert.Equal("16669061286", resultado);
         }
 

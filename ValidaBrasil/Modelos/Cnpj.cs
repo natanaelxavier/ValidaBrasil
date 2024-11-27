@@ -17,18 +17,18 @@ namespace ValidaBrasil.Modelos
     {
         public string Formatar(string cnpj)
         {
-            cnpj = RemoverFormatação(cnpj);
+            cnpj = RemoverFormatacao(cnpj);
             return Regex.Replace(cnpj, @"(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})", "$1.$2.$3/$4-$5");
         }
 
-        public string RemoverFormatação(string cnpj)
+        public string RemoverFormatacao(string cnpj)
         {
             return Regex.Replace(cnpj, @"[^\d]", "");
         }
 
         public bool Validar(string cnpj)
         {
-            cnpj = RemoverFormatação(cnpj);
+            cnpj = RemoverFormatacao(cnpj);
 
             if (!Regex.IsMatch(cnpj, @"^\d{14}$") || new string(cnpj[0], 14) == cnpj)
                 return false;

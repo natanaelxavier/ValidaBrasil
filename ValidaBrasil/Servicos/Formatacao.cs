@@ -48,7 +48,7 @@ namespace ValidaBrasil.Servicos
                     throw new ArgumentException($"Tipo {tipo} não suportado.");
             }
 
-            return operacao.RemoverFormatação(valor);
+            return operacao.RemoverFormatacao(valor);
         }
     }
 }
