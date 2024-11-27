@@ -22,6 +22,12 @@ namespace ValidaBrasil.Servicos
                 case TipoDocumento.RENAVAM:
                     operacao = new Renavam();
                     break;
+                case TipoDocumento.TITULOELEITORAL:
+                    operacao = new TituloEleitoral();
+                    break;
+                case TipoDocumento.PLACAVEICULO:
+                    operacao = new PlacaVeiculo();
+                    break;
                 default:
                     throw new ArgumentException($"Tipo {tipo} não suportado.");
             }
@@ -43,6 +49,12 @@ namespace ValidaBrasil.Servicos
                     break;
                 case TipoDocumento.RENAVAM:
                     operacao = new Renavam();
+                    break;
+                case TipoDocumento.TITULOELEITORAL:
+                    operacao = new TituloEleitoral();
+                    break;
+                case TipoDocumento.PLACAVEICULO:
+                    operacao = new PlacaVeiculo();
                     break;
                 default:
                     throw new ArgumentException($"Tipo {tipo} não suportado.");
