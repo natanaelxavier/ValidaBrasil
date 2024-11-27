@@ -7,6 +7,11 @@ using ValidaBrasil.Interfaces;
 
 namespace ValidaBrasil.Modelos
 {
+    /// <summary>
+    /// As placas de identificação de veículos no Brasil são emitidas pelos Departamentos Estaduais de Trânsito (DETRANs) 
+    /// de cada estado e do Distrito Federal, seguindo um sistema alfanumérico comum a todo o país.
+    /// Autor: Wikipedia
+    /// </summary>
     internal class PlacaVeiculo : IOperacao
     {
         // Atributos Internos
