@@ -7,11 +7,10 @@ using ValidaBrasil.Interfaces;
 namespace ValidaBrasil.Modelos
 {
     /// <summary>
-    /// No Brasil, o Cadastro Nacional da Pessoa Jurídica (acrônimo: CNPJ)
-    /// é um número único que identifica uma pessoa jurídica e outros tipos de arranjo jurídico 
-    /// sem personalidade jurídica (como condomínios, órgãos públicos, fundos) junto à 
-    /// Receita Federal brasileira (órgão do Ministério da Economia).
-    /// Autor: Wikipedia
+    /// O Cadastro Nacional da Pessoa Jurídica (CNPJ) é um número único atribuído a 
+    /// entidades jurídicas, como empresas, órgãos públicos, e outros tipos de arranjos jurídicos 
+    /// que possuem ou não personalidade jurídica. O CNPJ é emitido pela Receita Federal do Brasil, 
+    /// sendo utilizado para identificar essas entidades perante o governo e em transações legais e fiscais.
     /// </summary>
     internal class Cnpj : IOperacao
     {

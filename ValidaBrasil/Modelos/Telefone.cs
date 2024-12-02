@@ -7,8 +7,8 @@ using ValidaBrasil.Interfaces;
 namespace ValidaBrasil.Modelos
 {
     /// <summary>
-    /// Um número de telefone, também chamado de número telefônico ou simplesmente telefone, é uma sequência de números decimais que identificam um ponto de terminação de rede.
-    /// Autor: Wikipedia
+    /// Um número de telefone é uma sequência única de dígitos utilizada para identificar um ponto de terminação de rede em sistemas de telecomunicações. 
+    /// Ele permite a comunicação entre diferentes terminais, sendo amplamente utilizado para chamadas de voz e outros serviços relacionados.
     /// </summary>
     internal class Telefone : IOperacao
     {

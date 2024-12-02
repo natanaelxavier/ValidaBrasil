@@ -4,11 +4,9 @@ using ValidaBrasil.Interfaces;
 namespace ValidaBrasil.Modelos
 {
     /// <summary>
-    /// O Cadastro de Pessoa Física (abreviado CPF ou CPF-MF, substituto do Cartão de Identificação do Contribuinte abreviado CIC)
-    /// é o registro de contribuintes mantido pela Receita Federal do Brasil 
-    /// no qual podem se inscrever, uma única vez, quaisquer pessoas naturais, 
-    /// independentemente de idade ou nacionalidade, inclusive falecidas.
-    /// Autor: Wikipedia
+    /// O Cadastro de Pessoa Física (CPF) é um número de identificação atribuído a pessoas físicas pela Receita Federal do Brasil. 
+    /// Ele é utilizado para registrar os contribuintes no sistema tributário nacional e para diversas transações fiscais e legais. 
+    /// Qualquer pessoa natural, independente de idade ou nacionalidade, pode ser registrada, incluindo pessoas falecidas.
     /// </summary>
     internal class Cpf : IOperacao
     {

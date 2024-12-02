@@ -8,11 +8,9 @@ using ValidaBrasil.Interfaces;
 namespace ValidaBrasil.Modelos
 {
     /// <summary>
-    /// O Título de eleitor é o documento que comprova que um determinado cidadão está inscrito 
-    /// na Justiça Eleitoral do Brasil e se encontra apto a exercer tanto o eleitorado ativo 
-    /// (votar num candidato), quanto o eleitorado passivo (ser votado como candidato) em 
-    /// eleições municipais, estaduais e federais.
-    /// Autor: Wikipedia
+    /// O Título de Eleitor é o documento que certifica que um cidadão está registrado na Justiça Eleitoral 
+    /// e tem o direito de participar ativamente do processo eleitoral, seja votando ou sendo votado em eleições 
+    /// em níveis municipal, estadual ou federal no Brasil.
     /// </summary>
     internal class TituloEleitoral : IOperacao
     {

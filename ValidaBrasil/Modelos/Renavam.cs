@@ -7,11 +7,9 @@ using ValidaBrasil.Interfaces;
 namespace ValidaBrasil.Modelos
 {
     /// <summary>
-    /// O Registro Nacional de Veículos Automotores (RENAVAM) 
-    /// é um sistema desenvolvido pelo Serpro que cobre todo o Brasil,
-    /// tendo como principal finalidade o registro de todos os veículos do país, 
-    /// efetuados pelas unidades do Detran em cada estado, e centralizados pela unidade central, o Denatran.
-    /// Autor: Wikipedia
+    /// O Registro Nacional de Veículos Automotores (RENAVAM) é um sistema utilizado no Brasil para registrar todos os veículos do país.
+    /// A principal finalidade do RENAVAM é centralizar o registro dos veículos, realizado pelas unidades do Detran em cada estado, 
+    /// e organizado pela unidade central, o Denatran. Este sistema é fundamental para a gestão e controle do transporte de veículos no Brasil.
     /// </summary>
     internal class Renavam : IOperacao
     {
