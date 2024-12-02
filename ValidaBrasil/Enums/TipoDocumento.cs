@@ -10,6 +10,7 @@ namespace ValidaBrasil.Enums
         CNPJ,
         RENAVAM,
         TITULOELEITORAL,
-        PLACAVEICULO
+        PLACAVEICULO,
+        TELEFONE
     }
 }

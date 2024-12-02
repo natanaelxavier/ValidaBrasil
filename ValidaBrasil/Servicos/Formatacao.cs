@@ -28,6 +28,9 @@ namespace ValidaBrasil.Servicos
                 case TipoDocumento.PLACAVEICULO:
                     operacao = new PlacaVeiculo();
                     break;
+                case TipoDocumento.TELEFONE:
+                    operacao = new Telefone();
+                    break;
                 default:
                     throw new ArgumentException($"Tipo {tipo} não suportado.");
             }
@@ -55,6 +58,9 @@ namespace ValidaBrasil.Servicos
                     break;
                 case TipoDocumento.PLACAVEICULO:
                     operacao = new PlacaVeiculo();
+                    break;
+                case TipoDocumento.TELEFONE:
+                    operacao = new Telefone();
                     break;
                 default:
                     throw new ArgumentException($"Tipo {tipo} não suportado.");
