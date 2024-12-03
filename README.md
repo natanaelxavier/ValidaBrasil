@@ -143,6 +143,12 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ---
 
+## Pacote Nuget
+
+Acesse o Pacote [Nuget](https://www.nuget.org/packages/ValidaBrasil).
+
+---
+
 ## Contato
 
 - **Desenvolvedor**: Natanael

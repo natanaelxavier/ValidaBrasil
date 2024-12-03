@@ -2,10 +2,33 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Natanael Xavier</Authors>
+    <Description>O ValidaBrasil é uma biblioteca leve e extensível para validação, formatação e manipulação de documentos e códigos brasileiros, como CPF, CNPJ, CEP e muito mais.</Description>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/natanaelxavier/ValidaBrasil</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/natanaelxavier/ValidaBrasil</RepositoryUrl>
+    <PackageTags>Validação, ValidaBrasil, CPF, CNPJ, Formatação</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>Copyright 2024, Natanael Xavier</Copyright>
+    <PackageIcon>Icone.png</PackageIcon>
+    <PackageIconUrl />
+    <ApplicationIcon>Icone.ico</ApplicationIcon>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="Utilitarios\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Documents\Temp\Icone.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
